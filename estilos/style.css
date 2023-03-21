@@ -47,7 +47,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #b2cbae;
     width: 280px;
     height: 500px;
@@ -56,6 +55,7 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
     transition: width .3s, heinght .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -104,11 +104,11 @@ div.campo > input {
     background-color: #6aaa96;
     font-size: 1em;
     width: calc(100% - 44px);
-    transform: translatey(-10px);
     height: 100%;
     border: 0px;
     border-radius: 5px;
     padding: 4px;
+    transform: translatey(-10px);
 }
 
 div.campo > input:focus-within {
